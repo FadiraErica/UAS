@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 class Student extends Model
 {
     protected $table = 'students'; // Nama tabel
-    protected $primaryKey = 'student_id'; // <-- Tambahkan ini
+    protected $primaryKey = 'Students_Id'; // <-- Tambahkan ini
     public $incrementing = true;
     protected $keyType = 'int';
 
